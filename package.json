@@ -4,8 +4,7 @@
   "description": "Sample Typescript Module",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
