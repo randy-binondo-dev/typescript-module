@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "outDir": "./",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@randybinondo/typescript-module": ["./index"],
+      "@randybinondo/typescript-module/*": ["./*"]
+    }
+  },
+  "include": [
+    "./"
+  ],
+  "exclude": ["node_modules", "jest.config.ts"]
+}
