@@ -1,6 +1,6 @@
 {
   "name": "@randybinondo/typescript-module",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Sample Typescript Module",
   "main": "index.js",
   "scripts": {
