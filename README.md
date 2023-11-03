@@ -13,7 +13,7 @@ $ npm i --save @randybinondo/typescript-module
 
 ## Usage
 
-### Pre-requisite
+### Prerequisite
 
 ```bash
 $ npm install -D typescript ts-node 
