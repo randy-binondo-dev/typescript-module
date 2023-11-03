@@ -13,6 +13,12 @@ $ npm i --save @randybinondo/typescript-module
 
 ## Usage
 
+### Pre-requisite
+
+```bash
+$ npm install -D typescript ts-node 
+```
+
 ```javascript
 import { sample } from "@randybinondo/typescript-module"
 
@@ -22,6 +28,12 @@ console.log(sample`aaa bbb ccc ${name}`);
 
 ### Output
 
+
+Optional
+```bash
+$ git clone https://github.com/randy-binondo-dev/typescript-module-demo.git
+```
+Run
 ```bash
 $ npm start
 > @randybinondo/typescript-module-demo@1.0.0 start
